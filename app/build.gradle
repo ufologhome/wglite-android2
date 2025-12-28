@@ -3,27 +3,22 @@ plugins {
 }
 
 android {
-    namespace "org.example.wglite"
-    compileSdk 33
+    namespace "com.example.wglite"
+    compileSdk 34
 
     defaultConfig {
-        applicationId "org.example.wglite"
-        minSdk 24        // Android 7.0+
-        targetSdk 33
+        applicationId "com.example.wglite"
+        minSdk 24
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
 
     buildTypes {
-        debug {
-            debuggable true
-        }
         release {
             minifyEnabled false
         }
     }
 }
 
-dependencies {
-    implementation "androidx.appcompat:appcompat:1.6.1"
-}
+dependencies {}
